@@ -73,6 +73,40 @@ The chatbot can discuss:
 - `urllib` for API requests
 - `xml.etree.ElementTree` for XML parsing
 
+## **Core Dependencies:**
+1. **`aiml>=0.9.2`** - The main library for AIML processing and chatbot functionality
+2. **`requests>=2.25.1`** - For better HTTP handling (recommended over urllib for production)
+
+## **Built-in Modules (noted for reference):**
+- `os` - File system operations
+- `urllib` - HTTP requests (built-in, but requests is preferred)
+- `xml.etree.ElementTree` - XML parsing (built-in)
+
+## **Optional Dependencies (commented out):**
+- `omdb` - Dedicated OMDB API wrapper
+- Development tools like `pytest`, `black`, `flake8`
+
+## **Installation Instructions:**
+
+Users can install the dependencies using:
+
+```bash
+# Install core dependencies
+pip install -r requirements.txt
+
+# Or install individually
+pip install aiml requests
+```
+
+## **Notes:**
+- The code currently uses `urllib` which is built-in, but `requests` is recommended for better error handling and Python 3 compatibility
+- The `raw_input()` function in some files indicates Python 2 compatibility, but the code should work with Python 3 using `input()`
+- The requirements file includes version specifications for stability
+
+This requirements.txt file will help users quickly set up the environment needed to run the H.U.G.O-Chatbot project.
+
+
+
 ### API Integration
 - OMDB API for movie information
 - XML response parsing
@@ -152,3 +186,38 @@ H.U.G.O-Chatbot/
     ├── junktest.text              # Test file
     └── [other utility files]
 ```
+
+### Additional Files and Structure adhering Best Practices
+
+H.U.G.O-Chatbot/
+├── 📁 src/
+│   ├── __init__.py
+│   ├── chatbot/
+│   │   ├── __init__.py
+│   │   ├── core.py
+│   │   ├── movie_api.py
+│   │   └── config.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── logging.py
+│       └── exceptions.py
+├── 📁 tests/
+│   ├── __init__.py
+│   ├── test_chatbot.py
+│   └── test_movie_api.py
+├── �� docs/
+│   ├── INSTALLATION.md
+│   ├── USAGE.md
+│   └── API_REFERENCE.md
+├── 📁 web/
+│   ├── app.py
+│   └── templates/
+├── 📁 database/
+│   └── models.py
+├── .env.example
+├── .gitignore
+├── Makefile
+├── Dockerfile
+├── setup.py
+├── pyproject.toml
+└── CHANGELOG.md

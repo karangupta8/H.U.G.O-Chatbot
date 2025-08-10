@@ -1,0 +1,26 @@
+# H.U.G.O-Chatbot Requirements
+# Python dependencies for the AIML-based chatbot with OMDB API integration
+
+# Core AIML library for chatbot functionality
+aiml>=0.9.2
+
+# HTTP requests for API calls (Python 2/3 compatible)
+# Note: urllib is built-in, but requests is more robust for production
+requests>=2.25.1
+
+# XML parsing (built-in, but listed for clarity)
+# xml.etree.ElementTree is part of Python standard library
+
+# Optional: For better HTTP handling in Python 2
+# urllib3>=1.26.0
+
+# Optional: For enhanced movie API functionality
+# omdb>=0.8.1
+
+# Development and testing dependencies (optional)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+
+# Python version requirements
+# Python >= 2.7 or Python >= 3.6 recommended
