@@ -1,21 +1,21 @@
 # H.U.G.O-Chatbot 🎬
 
-> *"A movie-loving chatbot that brings the magic of cinema to conversation"*
 
-A comprehensive Python-based chatbot that combines AIML (Artificial Intelligence Markup Language) with OMDB API integration to create a conversational AI that can discuss movies and engage in general conversation.
+A simple Python-based chatbot that combines AIML (Artificial Intelligence Markup Language) with OMDB API integration to create a conversational AI that can discuss movies and engage in general conversation.
 
 ##  The Story Behind H.U.G.O
 
-> **Built in 2015 by a college student with a passion for movies and conversation** 🎓
+> **Built in 2015 by an inquisitive undergraduate with a passion for coding, movies and conversation** 🎓
 
-This project represents a unique approach to AI conversation - **built entirely without modern ML, NLP libraries, or dynamic APIs**. Instead, it uses the elegant simplicity of AIML (Artificial Intelligence Markup Language) to create meaningful interactions.
+This project represents a the general approach at the time to AI conversation - **built entirely without modern ML, NLP libraries, or dynamic APIs**. It instead uses the simplicity of AIML (Artificial Intelligence Markup Language) to create meaningful interactions.
 
 ### The Journey 📚
 
 - **2015**: Conceived as a solution for movie enthusiasts who couldn't find like-minded people to discuss films with
-- **College Project**: Submitted as an annual college project, reaching the **top 5 of all projects** that year
-- **Evolution**: Later extended with GoodReads API for book discussions, weather integration, and more to become a fully capable assistant
-- **Legacy**: Named after Martin Scorsese's film 'Hugo' - a beautiful movie about the love of movies
+- **Legacy**: Named after Martin Scorsese's film 'HUGO' - a beautiful movie about the love of movies and cinema
+- **Evolution**: Further extended with GoodReads API for book discussions, weather integration, and more to become a fully capable assistant
+- **College Project**: Later submitted for the annual college project where it was selected amongst top projects of the year
+
 
 ### 🏛️ GitHub Archive Program 2020
 
@@ -131,15 +131,6 @@ User Input → AIML Pattern Matching → Response Selection → API Calls (if ne
 - **Brain File Management**: Performance optimization through caching
 - **Path Management**: File structure and reference handling
 
-### Data Flow Architecture
-
-```
-User Query → Input Normalization → Pattern Matching → Response Selection
-     ↓
-Movie Query? → API Call → Data Parsing → Response Formatting
-     ↓
-Final Response → Context Update → Output Generation
-```
 
 ## 🎯 Usage Examples
 
@@ -168,10 +159,6 @@ H.U.G.O: [Fetches from OMDB API] The Matrix was directed by Lana Wachowski and L
 - **HTTP**: `requests>=2.25.1` - API communication
 - **Built-in**: `urllib`, `xml.etree.ElementTree`, `os`
 
-### Performance
-- **Startup Time**: ~2-3 seconds (first run), ~0.5 seconds (cached)
-- **Response Time**: <100ms for pattern matching, ~500ms for API calls
-- **Memory Usage**: ~50MB for full knowledge base
 
 ### Compatibility
 - **Python**: 2.7+ and 3.6+
@@ -284,15 +271,6 @@ H.U.G.O-Chatbot/
 
 This project is based on the ALICE A.I. Foundation's AIML files, released under the GNU General Public License.
 
-## 🤝 Contributing
-
-This project welcomes contributions! Whether you're:
-- Adding new AIML knowledge files
-- Improving API integration
-- Enhancing error handling
-- Adding new features
-
-Please see our contributing guidelines for more details.
 
 ## 🙏 Acknowledgments
 
@@ -300,11 +278,12 @@ Please see our contributing guidelines for more details.
 - **OMDB API** for providing movie information
 - **Python AIML library** developers
 - **GitHub Archive Program** for preserving this code for future generations
+- [**Python 2.7 Documentation for xml.etree.ElementTree**](https://docs.python.org/2/library/xml.etree.elementtree.html)
 
 ---
 
-*"In a world of complex AI, sometimes the simplest solutions are the most elegant."* 🎬✨
 
-*This code is preserved in the Arctic Vault for future civilizations - a testament to human creativity and the love of movies.* ❄️🏛️
+
+*This code is preserved in the Arctic Vault for future civilizations - a testament to human creativity and resillience* ❄️🏛️
 
 
