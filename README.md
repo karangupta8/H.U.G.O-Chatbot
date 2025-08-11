@@ -5,13 +5,13 @@ A simple Python-based chatbot that combines AIML (Artificial Intelligence Markup
 
 ##  The Story Behind H.U.G.O
 
-> **Built in 2015 by an inquisitive undergraduate with a passion for coding, movies and conversation** 🎓
+> **Built in 2016 by an inquisitive undergraduate with a passion for coding, movies and conversation** 🎓
 
 This project represents a the general approach at the time to AI conversation - **built entirely without modern ML, NLP libraries, or dynamic APIs**. It instead uses the simplicity of AIML (Artificial Intelligence Markup Language) to create meaningful interactions.
 
 ### The Journey 📚
 
-- **2015**: Conceived as a solution for movie enthusiasts who couldn't find like-minded people to discuss films with
+- **August,2016**: Conceived as a solution for movie enthusiasts who couldn't find like-minded people to discuss films with
 - **Legacy**: Named after Martin Scorsese's film 'HUGO' - a beautiful movie about the love of movies and cinema
 - **Evolution**: Further extended with GoodReads API for book discussions, weather integration, and more to become a fully capable assistant
 - **College Project**: Later submitted for the annual college project where it was selected amongst top projects of the year
